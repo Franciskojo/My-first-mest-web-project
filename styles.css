@@ -189,12 +189,30 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  row-gap: 20px;
   padding: 20px 60px;
   height: 100px;
   width: 100%;
   background-color: black;
   color: white;
-  margin: 8
-  ;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
+
+.about {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.feature {
+  font-size: 1.5rem;
+}
+
+.follow {
+  font-size: 1.5rem;
+}
+
+.sub {
+  font-size: 1.5rem;
+}
+
